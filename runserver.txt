@@ -1,0 +1,9 @@
+Git Bash - python manage.py runserver         <--  To start program on localhost
+Linux - puthon3 manage.py runserver
+
+python manage.py migrate     <--  to save all unsaved migratons
+
+python manage.py createsuperuser    <--  To create admin user VIA Terminal
+
+user
+password

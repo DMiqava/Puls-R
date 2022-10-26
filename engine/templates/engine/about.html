@@ -1,0 +1,46 @@
+{% extends 'engine/base.html'%}
+{% block content%}
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+<style>
+    .about-search {
+        margin-top: 1%;
+        text-align: center;
+    }
+    .logo-place {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .info {
+        text-align: center;
+        margin-top: 10%;
+    }
+    a {
+        text-decoration: none;
+        font-size: 30px;
+        line-height: 20px;
+        color: black;
+    }
+    a:hover{
+        color: rgb(16, 113, 191);
+    }
+</style>
+    <div class="about-search">
+        <h1>About Puls-R Search Engine</h1>
+        <p>This is a search engine made by BTU Students.</p>
+    </div>
+    <div class="logo-place"><br><br><br>
+        <h3>Search Engine was made by team TCP</h3>
+        <img src="../static/images/logo.png" alt="search engine"  width="200" height="200">
+    </div>
+    <div class="info">
+        <h4>David Mikava - <a href="https://www.linkedin.com/in/daviti-mikava-123065224/"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://www.facebook.com/profile.php?id=100010983555160"><ion-icon name="logo-facebook"></ion-icon></a>
+        </h4>
+        <h4>David Koshkadze - <a href="https://www.linkedin.com/in/david-koshkadze-506197233/"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://www.facebook.com/15h11b"><ion-icon name="logo-facebook"></ion-icon></a>
+        </h4>
+        <h4>Lasha Katchkatchishvili - <a href="https://www.linkedin.com/in/lasha-katchkatchishvili-07a77123a/"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://www.facebook.com/profile.php?id=100004670044429"><ion-icon name="logo-facebook"></ion-icon></a>
+        </h4>
+    </div>
+{% endblock content%}
