@@ -7,7 +7,7 @@ from newspaper import Article
 
 
 # txt ფაილის ცვლადად შემოტანა
-with open('analysis/mytext.txt') as article:
+with open('mytext.txt') as article:
      h = article.read()
 
 
