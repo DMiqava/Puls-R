@@ -7,14 +7,14 @@ import requests
 
 
 def query(request):
-    return render(request, 'engine/home.html')
+    return render(request, 'engine/index.html')
     
 
 def results(request):
     if request.method == "POST":
         query = request.POST.get('search')
         if query == "":
-            return render(request, 'engine/home.html')
+            return render(request, 'engine/index.html')
         else:
 
             results = []
